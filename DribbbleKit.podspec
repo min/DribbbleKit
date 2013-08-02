@@ -10,6 +10,8 @@ Pod::Spec.new do |s|
   s.source_files = 'DribbbleKit/**/*.{h,m}'
   s.requires_arc = true
   s.dependency 'AFNetworking'
+  s.dependency 'Mantle'
+  s.dependency 'SOCKit'
   
   s.ios.deployment_target = '5.0'
   s.ios.frameworks = 'MobileCoreServices', 'SystemConfiguration', 'Security', 'CoreGraphics'

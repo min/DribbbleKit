@@ -16,6 +16,13 @@
 		39B53A0617A89AB00016A43B /* libDribbbleKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 39B539EE17A89AB00016A43B /* libDribbbleKit.a */; };
 		39B53A0C17A89AB00016A43B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 39B53A0A17A89AB00016A43B /* InfoPlist.strings */; };
 		39B53A0E17A89AB00016A43B /* DribbbleKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39B53A0D17A89AB00016A43B /* DribbbleKitTests.m */; };
+		39B53A1C17A89EDD0016A43B /* DKShot.m in Sources */ = {isa = PBXBuildFile; fileRef = 39B53A1B17A89EDD0016A43B /* DKShot.m */; };
+		39B53A1F17A89EEA0016A43B /* DKComment.m in Sources */ = {isa = PBXBuildFile; fileRef = 39B53A1E17A89EEA0016A43B /* DKComment.m */; };
+		39B53A2217A89F150016A43B /* DKPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 39B53A2117A89F150016A43B /* DKPlayer.m */; };
+		39B53A2517A89F6A0016A43B /* DKHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 39B53A2417A89F6A0016A43B /* DKHTTPClient.m */; };
+		39B53A8517A978FC0016A43B /* DKConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 39B53A8417A978FC0016A43B /* DKConstants.m */; };
+		39BABF2517AB4217001088E1 /* DKCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 39BABF2417AB4217001088E1 /* DKCollection.m */; };
+		39BABF2817AB79D7001088E1 /* DKModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 39BABF2717AB79D7001088E1 /* DKModel.m */; };
 		C2E7B014D0D64CFCB4D4F28F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E31680BA320C40739D502F82 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +62,20 @@
 		39B53A0917A89AB00016A43B /* DribbbleKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DribbbleKitTests-Info.plist"; sourceTree = "<group>"; };
 		39B53A0B17A89AB00016A43B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		39B53A0D17A89AB00016A43B /* DribbbleKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DribbbleKitTests.m; sourceTree = "<group>"; };
+		39B53A1A17A89EDD0016A43B /* DKShot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKShot.h; sourceTree = "<group>"; };
+		39B53A1B17A89EDD0016A43B /* DKShot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKShot.m; sourceTree = "<group>"; };
+		39B53A1D17A89EEA0016A43B /* DKComment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKComment.h; sourceTree = "<group>"; };
+		39B53A1E17A89EEA0016A43B /* DKComment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKComment.m; sourceTree = "<group>"; };
+		39B53A2017A89F150016A43B /* DKPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKPlayer.h; sourceTree = "<group>"; };
+		39B53A2117A89F150016A43B /* DKPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKPlayer.m; sourceTree = "<group>"; };
+		39B53A2317A89F6A0016A43B /* DKHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKHTTPClient.h; sourceTree = "<group>"; };
+		39B53A2417A89F6A0016A43B /* DKHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKHTTPClient.m; sourceTree = "<group>"; };
+		39B53A8317A978FC0016A43B /* DKConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKConstants.h; sourceTree = "<group>"; };
+		39B53A8417A978FC0016A43B /* DKConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKConstants.m; sourceTree = "<group>"; };
+		39BABF2317AB4217001088E1 /* DKCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKCollection.h; sourceTree = "<group>"; };
+		39BABF2417AB4217001088E1 /* DKCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKCollection.m; sourceTree = "<group>"; };
+		39BABF2617AB79D7001088E1 /* DKModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKModel.h; sourceTree = "<group>"; };
+		39BABF2717AB79D7001088E1 /* DKModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKModel.m; sourceTree = "<group>"; };
 		E31680BA320C40739D502F82 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -116,9 +137,23 @@
 		39B539F317A89AB00016A43B /* DribbbleKit */ = {
 			isa = PBXGroup;
 			children = (
+				39B53A1D17A89EEA0016A43B /* DKComment.h */,
+				39B53A1E17A89EEA0016A43B /* DKComment.m */,
+				39B53A2317A89F6A0016A43B /* DKHTTPClient.h */,
+				39B53A2417A89F6A0016A43B /* DKHTTPClient.m */,
+				39B53A2017A89F150016A43B /* DKPlayer.h */,
+				39B53A2117A89F150016A43B /* DKPlayer.m */,
+				39B53A1A17A89EDD0016A43B /* DKShot.h */,
+				39B53A1B17A89EDD0016A43B /* DKShot.m */,
 				39B539F617A89AB00016A43B /* DribbbleKit.h */,
 				39B539F817A89AB00016A43B /* DribbbleKit.m */,
 				39B539F417A89AB00016A43B /* Supporting Files */,
+				39B53A8317A978FC0016A43B /* DKConstants.h */,
+				39B53A8417A978FC0016A43B /* DKConstants.m */,
+				39BABF2317AB4217001088E1 /* DKCollection.h */,
+				39BABF2417AB4217001088E1 /* DKCollection.m */,
+				39BABF2617AB79D7001088E1 /* DKModel.h */,
+				39BABF2717AB79D7001088E1 /* DKModel.m */,
 			);
 			path = DribbbleKit;
 			sourceTree = "<group>";
@@ -265,7 +300,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39B53A1F17A89EEA0016A43B /* DKComment.m in Sources */,
+				39B53A2217A89F150016A43B /* DKPlayer.m in Sources */,
+				39B53A8517A978FC0016A43B /* DKConstants.m in Sources */,
+				39B53A2517A89F6A0016A43B /* DKHTTPClient.m in Sources */,
+				39B53A1C17A89EDD0016A43B /* DKShot.m in Sources */,
 				39B539F917A89AB00016A43B /* DribbbleKit.m in Sources */,
+				39BABF2517AB4217001088E1 /* DKCollection.m in Sources */,
+				39BABF2817AB79D7001088E1 /* DKModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +454,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "DribbbleKitTests/DribbbleKitTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -428,6 +471,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DribbbleKit/DribbbleKit-Prefix.pch";
 				INFOPLIST_FILE = "DribbbleKitTests/DribbbleKitTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = xctest;
 			};
